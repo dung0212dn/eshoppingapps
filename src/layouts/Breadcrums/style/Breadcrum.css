@@ -1,0 +1,32 @@
+ol.breadcrumb{
+      display: flex;
+     font-size: 14px;
+
+}
+
+li.breadcrumb-item{
+      font-weight: 500;
+      text-transform: capitalize;
+      
+}
+
+li.breadcrumb-item:hover a{
+      font-weight: 500;
+      color: #cb8161
+}
+
+
+li.breadcrumb-item::after{
+      content: '\26ac';
+      padding: 0px 8px;
+    
+}
+
+li.breadcrumb-item + li.active{
+      color : #868686
+}
+
+li.breadcrumb-item + li.active::after {
+      content: '';
+      
+}

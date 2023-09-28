@@ -1,0 +1,26 @@
+.category {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  z-index: 10000;
+  visibility: hidden;
+  background-color: white;
+}
+
+.category.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.menu-user{
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  z-index: 10000;
+  visibility: hidden;
+  background-color: white;
+}
+
+.menu-user.show{
+  opacity: 1;
+  visibility: visible;
+}
